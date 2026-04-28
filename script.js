@@ -63,35 +63,88 @@
 // console.log(!(5>5)&&(5==2|| 11>=10))//t
 
 //condition statement
-let age=27                                
-if(age>=18){
-    console.log("Eligibal for vote cast")
-}else{
-    console.log(" not Eligibal for vote cast")
+
+// for(let i=1;i<=1let age=27                                
+// if(age>=18){
+//     console.log("Eligibal for vote cast")
+// }else{
+//     console.log(" not Eligibal for vote cast")
+// }
+// let marks =39
+// if(marks>=80){
+//     console.log("A+")
+// }else if(marks>=70){
+//     console.log("A")
+// }else if(marks>=60){
+//     console.log("B")
+// }else if(marks>=50){
+//     console.log("C")
+// }else if(marks>=40){
+//     console.log("D")
+// }else{
+//     console.log("FAIL")
+// }
+
+// //LOOP
+// let number=60;i++){
+//     console.log(`${number} X ${i} =${number*i}`)
+// }
+// let i=1
+// while(i<=3){
+//     console.log(`count:${i}`)
+//     //statement -> condition false
+//     i++
+// }
+// //function
+// function greet(){
+//     console.log("hey")
+// }
+
+//with perameter
+function greet(name){
+    console.log(`hellow,${name}`);
 }
-let marks =39
-if(marks>=80){
-    console.log("A+")
-}else if(marks>=70){
-    console.log("A")
-}else if(marks>=60){
-    console.log("B")
-}else if(marks>=50){
-    console.log("C")
-}else if(marks>=40){
-    console.log("D")
-}else{
-    console.log("FAIL")
+// //call argument
+// greet(`ali`);
+// greet(`shayan`);
+// greet(`mahnoor`);
+
+//  //with perameter +return(calculation)
+//  function sum(num1,num2){
+//     return num1+num2
+//  }
+//  //return function value can be store in variable
+//  let addition =sum(10,20)//30
+//  console.log(addition)
+
+ //default perameter
+//  function sum(num1,num2=30){
+//     return num1+num2
+//  }
+
+//errow function (ES6)
+// const sum =(num1,num2=30)=>num1+num2
+
+//   //return function value can be store in variable
+//   let addition1 =sum(10)//40
+//   let addition2 =sum(10,2)//12
+//   console.log(addition1)
+//   console.log(addition2)
+
+//ARRAY
+let fruits =["apple","mango","pineapple"]
+//index:     0          1          2
+//single element
+console.log(fruits[1])
+//looping over arry
+for(let fruit of fruits){
+    console.log(fruit)
 }
 
-//LOOP
-let number=6
-for(let i=1;i<=10;i++){
-    console.log(`${number} X ${i} =${number*i}`)
+//objects
+let student={
+    name:"Ali"
+    age:20,
 }
-let i=1
-while(i<=3){
-    console.log(`count:${i}`)
-    //statement -> condition false
-    i++
-}
+
+
